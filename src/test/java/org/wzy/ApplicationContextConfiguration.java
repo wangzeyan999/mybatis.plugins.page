@@ -15,7 +15,6 @@ import com.alibaba.druid.pool.DruidDataSource;
 import com.mysql.jdbc.Driver;
 
 @Configuration
-
 // mybatis mapper的接口
 @MapperScan(basePackages = "org.wzy.test.dao")
 public class ApplicationContextConfiguration {
